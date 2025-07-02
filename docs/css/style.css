@@ -2023,6 +2023,10 @@ ol {
     /* Add spacing above text */
   }
 
+    .hero__text p {
+      display: none;
+    }
+
 
 }
 
@@ -2055,6 +2059,10 @@ ol {
     margin-top: 40px;
     /* Spacing above text */
   }
+
+    .hero__text p {
+      display: none;
+    }
 }
 
 @media (max-width: 320px) {
