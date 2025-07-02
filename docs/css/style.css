@@ -1991,6 +1991,10 @@ ol {
     /* Add spacing above text */
   }
 
+    .hero__text p {
+      display: none;
+    }
+
     
 }
 
