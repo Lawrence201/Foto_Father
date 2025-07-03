@@ -14,6 +14,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+
 
 
     <!-- Css Styles -->
@@ -148,8 +151,6 @@
 
 
     <section class="mission-section">
-        
-    
         <div class="mission-container">
             <div class="vision">
                 <div class="section-header">
@@ -398,6 +399,182 @@
     </section>
     <!-- Counter Section End -->
 
+    <section class="work">
+        <div class="work__gallery">
+            <div class="grid-sizer"></div>
+    
+            <!-- Wide item -->
+            <div class="work__item wide__item set-bg" data-setbg="img/work/work-1.jpg">
+                <a href="img/work/work-1.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
+                <div class="work__item__hover">
+                    <h4>Taste of Ghana</h4>
+                    <ul>
+                        <li>Capturing our</li>
+                        <li>Drizzling Moments</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <!-- Small item -->
+            <div class="work__item small__item set-bg" data-setbg="img/work/work-2.jpg">
+                <a href="img/work/work-2.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
+            </div>
+    
+            <div class="work__item small__item set-bg" data-setbg="img/work/work-3.jpg">
+                <a href="img/work/work-3.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
+            </div>
+            
+    
+            <!-- Large item -->
+            <div class="work__item large__item set-bg" data-setbg="img/work/work-4.jpg">
+                <a href="img/work/work-4.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
+                <div class="work__item__hover">
+                    <h4>VIP Auto Tires & Service</h4>
+                    <ul>
+                        <li>eCommerce</li>
+                        <li>Magento</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="work__item small__item set-bg" data-setbg="img/work/work-5.jpg">
+                <a href="img/work/work-5.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
+            </div>
+    
+            <div class="work__item small__item set-bg" data-setbg="img/work/work-6.jpg">
+                <a href="img/work/work-6.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
+            </div>
+    
+            <!-- Wide item -->
+            <div class="work__item wide__item set-bg" data-setbg="img/work/work-7.jpg">
+                <a href="img/work/work-7.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
+                <div class="work__item__hover">
+                    <h4>VIP Auto Tires & Service</h4>
+                    <ul>
+                        <li>eCommerce</li>
+                        <li>Magento</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Large item -->
+            <div class="work__item large__item set-bg" data-setbg="img/work/work-4.jpg">
+                <a href="img/work/work-4.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
+                <div class="work__item__hover">
+                    <h4>VIP Auto Tires & Service</h4>
+                    <ul>
+                        <li>eCommerce</li>
+                        <li>Magento</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="work__item small__item set-bg" data-setbg="img/work/work-5.jpg">
+                <a href="img/work/work-5.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
+            </div>
+            
+            <div class="work__item small__item set-bg" data-setbg="img/work/work-6.jpg">
+                <a href="img/work/work-6.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
+            </div>
+            
+            <!-- Wide item -->
+            <div class="work__item wide__item set-bg" data-setbg="img/work/work-1.jpg">
+                <a href="img/work/work-1.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
+                <div class="work__item__hover">
+                    <h4>Taste of Ghana</h4>
+                    <ul>
+                        <li>Capturing our</li>
+                        <li>Drizzling Moments</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Wide item -->
+            <div class="work__item wide__item set-bg" data-setbg="img/work/work-1.jpg">
+                <a href="img/work/work-1.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
+                <div class="work__item__hover">
+                    <h4>Taste of Ghana</h4>
+                    <ul>
+                        <li>Capturing our</li>
+                        <li>Drizzling Moments</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="work__item small__item set-bg" data-setbg="img/work/work-5.jpg">
+                <a href="img/work/work-5.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
+            </div>
+            
+            <div class="work__item small__item set-bg" data-setbg="img/work/work-6.jpg">
+                <a href="img/work/work-6.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
+            </div>
+
+        </div>
+    </section>
+
+    <script>
+       $('.image-popup').magnificPopup({
+            type: 'image',
+            gallery: {
+                enabled: true
+            },
+            closeBtnInside: true, // puts the X inside the popup
+            mainClass: 'mfp-fade' // optional fade animation
+        });
+        $('.video-popup').magnificPopup({
+            type: 'iframe',
+            closeBtnInside: true, // puts the X inside the popup
+            mainClass: 'mfp-fade' // optional fade animation
+        });
+
+    </script>
+
+
+    <section class="counter">
+        <div class="container">
+            <div class="counter__content">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="counter__item">
+                            <div class="counter__item__text">
+                                <img src="img/icons/ci-1.png" alt="">
+                                <h2 class="counter_num">230</h2>
+                                <p>Compled Projects</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="counter__item second__item">
+                            <div class="counter__item__text">
+                                <img src="img/icons/ci-2.png" alt="">
+                                <h2 class="counter_num">1068</h2>
+                                <p>Happy clients</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="counter__item third__item">
+                            <div class="counter__item__text">
+                                <img src="img/icons/ci-3.png" alt="">
+                                <h2 class="counter_num">230</h2>
+                                <p>Perspective clients</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="counter__item four__item">
+                            <div class="counter__item__text">
+                                <img src="img/icons/ci-4.png" alt="">
+                                <h2 class="counter_num">230</h2>
+                                <p>Compled Projects</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+      
+
     <!-- Team Section Begin -->
     <section class="team spad set-bg" data-setbg="img/team-bg.jpg">
         <div class="container">
@@ -579,6 +756,8 @@
     </section>
     <!-- Latest Blog Section End -->
 
+   
+
     <!-- Call To Action Section Begin -->
     <section class="callto spad set-bg" data-setbg="img/callto-bg.jpg">
         <div class="container">
@@ -678,6 +857,10 @@
         </div>
     </footer>
     <!-- Footer Section End -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
 
     <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.min.js"></script>
