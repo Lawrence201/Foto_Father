@@ -476,6 +476,7 @@ ol {
 }
 
 .hero__item {
+  position: relative;
   height: 100vh;
   /* Full height of the viewport */
   padding-top: 255px;
@@ -487,6 +488,8 @@ ol {
   background-repeat: no-repeat;
   /* Prevent tiling */
 }
+
+
 
 .hero__text span {
   color: #ffffff;
@@ -2225,6 +2228,30 @@ h2 {
   margin-top: -150px;
   /* Moves it up by 20px */
 }
+/* Dark charcoal overlay */
+.hero__item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(30, 30, 30, 0.7);
+  /* Dark charcoal 60% opacity */
+  z-index: 1;
+}
+
+/* Ensure all child content appears above overlay */
+.hero__item>* {
+  position: relative;
+  z-index: 2;
+}
+
+.hero__text {
+  position: relative;
+  z-index: 2;
+}
+
 
 @media (max-width: 840px) {
   .hero__item {
