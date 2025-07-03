@@ -489,6 +489,20 @@ ol {
   /* Prevent tiling */
 }
 
+.section-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  font-size: 16px;
+  color: #777;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 
 .custom-lightbox {
   display: none;
