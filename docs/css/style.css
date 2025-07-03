@@ -490,11 +490,7 @@ ol {
 }
 
 .mfp-close {
-  display: block !important;
-  visibility: visible !important;
-  opacity: 1 !important;
-  font-size: 28px;
-  color: #fff;
+  display: none !important;
 }
 
 .hero__text span {

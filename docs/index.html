@@ -19,6 +19,7 @@
 
 
 
+
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
@@ -404,16 +405,19 @@
             <div class="grid-sizer"></div>
     
             <!-- Wide item -->
-            <div class="work__item wide__item set-bg" data-setbg="img/work/work-1.jpg">
-                <a href="img/work/work-1.jpg" class="image-popup"><i class="fa fa-search-plus"></i></a>
+            <div class="work__item wide__item set-bg" data-setbg="img/work/work_gallery/img_bg.JPG">
+                <a href="img/work/work_gallery/img.JPG" class="image-popup">
+                    <i class="fa fa-search-plus"></i>
+                </a>
                 <div class="work__item__hover">
-                    <h4>Taste of Ghana</h4>
+                    <h4>Ghana Music</h4>
                     <ul>
                         <li>Capturing our</li>
                         <li>Drizzling Moments</li>
                     </ul>
                 </div>
             </div>
+              
     
             <!-- Small item -->
             <div class="work__item small__item set-bg" data-setbg="img/work/work-2.jpg">
@@ -512,21 +516,20 @@
     </section>
 
     <script>
-       $('.image-popup').magnificPopup({
-            type: 'image',
-            gallery: {
-                enabled: true
-            },
-            closeBtnInside: true, // puts the X inside the popup
-            mainClass: 'mfp-fade' // optional fade animation
-        });
-        $('.video-popup').magnificPopup({
-            type: 'iframe',
-            closeBtnInside: true, // puts the X inside the popup
-            mainClass: 'mfp-fade' // optional fade animation
-        });
-
+        $('.image-popup').magnificPopup({
+                type: 'image',
+                gallery: {
+                    enabled: true
+                },
+                closeBtnInside: false, // We will use double-click to close
+                mainClass: 'mfp-fade'
+            });
+    // Listen for double-click on the image container
+    $(document).on('dblclick', '.mfp-img', function () {
+        $.magnificPopup.close();
+    });
     </script>
+      
 
 
     <section class="counter">
@@ -860,6 +863,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    
 
 
     <!-- Js Plugins -->
