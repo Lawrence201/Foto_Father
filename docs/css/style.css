@@ -2575,12 +2575,16 @@ h2 {
   }
 }
 
+
+
+
 /*--------------------------------- Responsive Media Quaries -----------------------------*/
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1170px;
   }
 }
+
 /* Medium Device = 1200px */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .header__nav__menu {
@@ -2710,27 +2714,39 @@ h2 {
 
   .slicknav_nav .slicknav_row,
 .slicknav_nav a {
-    padding: 7px 0;
+    padding: 10px 0;
     margin: 0;
     color: #ffffff;
     font-weight: 600;
+    font-size: 18px;
   }
 
   .slicknav_nav .slicknav_row:hover {
     border-radius: 0;
     background: transparent;
-    color: #111111;
+    color: #007bff
   }
 
   .slicknav_nav a:hover {
     border-radius: 0;
     background: transparent;
-    color: #111111;
+    color: #007bff
   }
 
   .slicknav_nav {
     background: #222222;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 9999;
+    margin: 0;
+    padding: 20px 0;
+    /* <--- Adds 15px space top and bottom */
+    box-sizing: border-box;
   }
+  
 
   .slicknav_btn {
     position: absolute;
@@ -2836,23 +2852,33 @@ h2 {
     margin: 0;
     color: #ffffff;
     font-weight: 600;
+    font-size: 15px;
   }
+.slicknav_nav .slicknav_row:hover {
+  border-radius: 0;
+  background: transparent;
+  color: #007bff
+}
 
-  .slicknav_nav .slicknav_row:hover {
-    border-radius: 0;
-    background: transparent;
-    color: #111111;
-  }
+.slicknav_nav a:hover {
+  border-radius: 0;
+  background: transparent;
+  color: #007bff
+}
 
-  .slicknav_nav a:hover {
-    border-radius: 0;
-    background: transparent;
-    color: #111111;
-  }
-
-  .slicknav_nav {
-    background: #222222;
-  }
+.slicknav_nav {
+  background: #222222;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 9999;
+  margin: 0;
+  padding: 20px 0;
+  /* <--- Adds 15px space top and bottom */
+  box-sizing: border-box;
+}
 
   .slicknav_btn {
     position: absolute;
