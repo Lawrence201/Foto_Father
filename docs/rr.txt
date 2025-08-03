@@ -1,0 +1,281 @@
+<!-- Breadcrumb End -->
+     <style>
+        /* Make outer wrapper span full screen */
+.full-width-wrapper {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+/* Add internal padding (side margins) */
+.custom-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .custom-container {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+/* Ensure no horizontal scrollbars */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+     
+
+
+
+     </style>
+
+    <!-- Portfolio Section Begin -->
+    <section class="portfolio spad">
+        <div class="container-fluid px-0">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="portfolio__filter" id="portfolioTabs">
+                        <li class="active" data-tab="all">All</li>
+                        <li data-tab="wedding">Wedding / Engagements</li>
+                        <li data-tab="birthday">Birthdays</li>
+                        <li data-tab="outing">Outings</li>
+                        <li data-tab="photoshoot">Photo-shoots</li>
+                        <li data-tab="ecommerce">eCommerce</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <!-- All Tab -->
+            <div class="row tab-content active-tab" id="tab-all"> <!-- Match "data-tab" value -->
+                <div class="full-width-wrapper">
+                    <div class="custom-container">
+                    
+                        <div class="work__gallery">
+                            <div class="grid-sizer"></div>
+                    
+                            <!-- Example items -->
+                            <div class="work__item wide__item set-bg" data-setbg="img/work/work_gallery/img_bg.JPG">
+                                <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img.JPG">
+                                    <i class="fa fa-search-plus"></i>
+                                </a>
+                                <div class="work__item__hover">
+                                    <h4>Mr. Drew Live</h4>
+                                    <ul>
+                                        <li>Vibes and melodies captured</li>
+                                        <li>@fotofather</li>
+                                    </ul>
+                                </div>
+                            </div>
+                    
+                            <!-- Small item -->
+                            <div class="work__item small__item set-bg" data-setbg="img/work/work_gallery/img-1_bg.jpg">
+                                <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img-1.jpg">
+                                    <i class="fa fa-search-plus"></i>
+                                </a>
+                    
+                            </div>
+                    
+                            <div class="work__item small__item set-bg" data-setbg="img/work/work_gallery/img-2_bg.JPG">
+                                <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img-2.JPG">
+                                    <i class="fa fa-search-plus"></i>
+                                </a>
+                            </div>
+                    
+                    
+                            <!-- Large item -->
+                            <div class="work__item large__item set-bg" data-setbg="img/work/work_gallery/img-3_bg.JPG">
+                                <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img-3.JPG">
+                                    <i class="fa fa-search-plus"></i>
+                                </a>
+                                <div class="work__item__hover">
+                                    <h4>Sarkodie – King of Rap</h4>
+                                    <ul>
+                                        <li>Capturing timeless moments</li>
+                                        <li>@fotofather</li>
+                                    </ul>
+                                </div>
+                    
+                            </div>
+                    
+                            <div class="work__item small__item set-bg" data-setbg="img/work/work_gallery/img-4_bg.JPG">
+                                <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img-4.JPG">
+                                    <i class="fa fa-search-plus"></i>
+                                </a>
+                            </div>
+                    
+                            <div class="work__item small__item set-bg" data-setbg="img/work/work_gallery/img-5_bg.jpg">
+                                <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img-5.jpg">
+                                    <i class="fa fa-search-plus"></i>
+                                </a>
+                            </div>
+                    
+                            <!-- Wide item -->
+                            <div class="work__item wide__item set-bg" data-setbg="img/work/work_gallery/img-6_bg.JPG">
+                                <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img-6.JPG">
+                                    <i class="fa fa-search-plus"></i>
+                                </a>
+                                <div class="work__item__hover">
+                                    <h4>VGMA Awards</h4>
+                                    <ul>
+                                        <li>Documenting iconic moments</li>
+                                        <li>@fotofather</li>
+                                    </ul>
+                                </div>
+                    
+                            </div>
+                    
+                            <!-- Large item -->
+                            <div class="work__item large__item set-bg" data-setbg="img/work/work_gallery/img-7_bg.jpg">
+                                <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img-7.jpg">
+                                    <i class="fa fa-search-plus"></i>
+                                </a>
+                                <div class="work__item__hover">
+                                    <h4>FotoFather</h4>
+                                    <ul>
+                                        <li>The face behind the camera</li>
+                                        <li>@fotofather</li>
+                                    </ul>
+                                </div>
+                            </div>
+                    
+                    
+                            <div class="work__item small__item set-bg" data-setbg="img/work/work_gallery/img-8_bg.jpg">
+                                <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img-8.jpg">
+                                    <i class="fa fa-search-plus"></i>
+                                </a>
+                            </div>
+                    
+                            <div class="work__item small__item set-bg" data-setbg="img/work/work_gallery/img-9_bg.jpg">
+                                <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img-9.jpg">
+                                    <i class="fa fa-search-plus"></i>
+                                </a>
+                            </div>
+                    
+                            <!-- Wide item -->
+                            <div class="work__item wide__item set-bg" data-setbg="img/work/work_gallery/img-10_bg.jpg">
+                                <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img-10.jpg">
+                                    <i class="fa fa-search-plus"></i>
+                                </a>
+                                <div class="work__item__hover">
+                                    <h4>Taste of Ghana</h4>
+                                    <ul>
+                                        <li>Capturing our</li>
+                                        <li>Drizzling Moments</li>
+                                    </ul>
+                                </div>
+                            </div>
+                    
+                            <!-- Wide item -->
+                            <div class="work__item wide__item set-bg" data-setbg="img/work/work_gallery/img-11_bg.jpg">
+                                <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img-11.jpg">
+                                    <i class="fa fa-search-plus"></i>
+                                </a>
+                                <div class="work__item__hover">
+                                    <h4>Stonebwoy Live</h4>
+                                    <ul>
+                                        <li>Capturing the energy on stage</li>
+                                        <li>@fotofather</li>
+                                    </ul>
+                                </div>
+                            </div>
+                    
+                            <div class="work__item small__item set-bg" data-setbg="img/work/work_gallery/img-12_bg.jpg">
+                                <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img-12.jpg">
+                                    <i class="fa fa-search-plus"></i>
+                                </a>
+                            </div>
+                            <div class="work__item small__item set-bg" data-setbg="img/work/work_gallery/img-13_bg.jpg">
+                                <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img-13.jpg">
+                                    <i class="fa fa-search-plus"></i>
+                                </a>
+                            </div>
+                        </div>
+                    
+                    </div>
+
+                </div>
+                
+            </div>
+            <!-- End of All Tab -->
+           
+
+            
+    
+            <!-- Wedding Tab -->
+            <div class="row tab-content" id="tab-wedding">
+                <div class="col-lg-4 col-md-6">
+                    <div class="portfolio__item">
+                        <div class="portfolio__item__video set-bg" data-setbg="img/portfolio/portfolio-1.jpg">
+                            <a href="#" class="play-btn video-popup"><i class="fa fa-play"></i></a>
+                        </div>
+                        <div class="portfolio__item__text">
+                            <h4>Wedding Example</h4>
+                            <ul>
+                                <li>Wedding</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Birthday Tab -->
+            <div class="row tab-content" id="tab-birthday">
+                <!-- Birthday items here -->
+            </div>
+    
+            <!-- Outing Tab -->
+            <div class="row tab-content" id="tab-outing">
+                <!-- Outing items here -->
+            </div>
+    
+            <!-- Photoshoot Tab -->
+            <div class="row tab-content" id="tab-photoshoot">
+                <!-- Photoshoot items here -->
+            </div>
+    
+            <!-- eCommerce Tab -->
+            <div class="row tab-content" id="tab-ecommerce">
+                <!-- Ecommerce items here -->
+            </div>
+        </div>
+    </section>
+    <style>
+        .tab-content {
+  display: none;
+}
+
+.tab-content.active-tab {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+    </style>
+
+    
+
+
+
+
+
+    
+    <script>
+        document.querySelectorAll("#portfolioTabs li").forEach(tab => {
+            tab.addEventListener("click", function () {
+                // Remove active class from all tabs
+                document.querySelectorAll("#portfolioTabs li").forEach(t => t.classList.remove("active"));
+
+                // Hide all content sections
+                document.querySelectorAll(".tab-content").forEach(content => content.classList.remove("active-tab"));
+
+                // Activate clicked tab and corresponding content
+                this.classList.add("active");
+                const tabId = this.getAttribute("data-tab");
+                document.getElementById(`tab-${tabId}`).classList.add("active-tab");
+            });
+        });
+    </script>
