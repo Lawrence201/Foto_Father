@@ -1,27 +1,9 @@
-section class="portfolio spad">
-        <div class="container-fluid ">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="portfolio__filter" id="portfolioTabs">
-                        <li class="active" data-tab="all">All</li>
-                        <li data-tab="wedding">Wedding / Engagements</li>
-                        <li data-tab="birthday">Birthdays</li>
-                        <li data-tab="outing">Outings</li>
-                        <li data-tab="photoshoot">Photo-shoots</li>
-                        <li data-tab="ecommerce">eCommerce</li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- All Tab -->
-            <div class="row tab-content active-tab" id="tab-all"> <!-- Match "data-tab" value -->
+<!-- Wedding Tab -->
+            <div class="row tab-content" id="tab-wedding">
                 <div class="full-width-wrapper">
                     <div class="custom-container">
-            
                         <div class="work__gallery">
                             <div class="grid-sizer"></div>
-            
-                            <!-- Example items -->
                             <div class="work__item wide__item set-bg" data-setbg="img/work/work_gallery/img_bg.JPG">
                                 <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img.JPG">
                                     <i class="fa fa-search-plus"></i>
@@ -34,22 +16,22 @@ section class="portfolio spad">
                                     </ul>
                                 </div>
                             </div>
-            
+                            
                             <!-- Small item -->
                             <div class="work__item small__item set-bg" data-setbg="img/work/work_gallery/img-1_bg.jpg">
                                 <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img-1.jpg">
                                     <i class="fa fa-search-plus"></i>
                                 </a>
-            
+                            
                             </div>
-            
+                            
                             <div class="work__item small__item set-bg" data-setbg="img/work/work_gallery/img-2_bg.JPG">
                                 <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img-2.JPG">
                                     <i class="fa fa-search-plus"></i>
                                 </a>
                             </div>
-            
-            
+                            
+                            
                             <!-- Large item -->
                             <div class="work__item large__item set-bg" data-setbg="img/work/work_gallery/img-3_bg.JPG">
                                 <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img-3.JPG">
@@ -62,21 +44,21 @@ section class="portfolio spad">
                                         <li>@fotofather</li>
                                     </ul>
                                 </div>
-            
+                            
                             </div>
-            
+                            
                             <div class="work__item small__item set-bg" data-setbg="img/work/work_gallery/img-4_bg.JPG">
                                 <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img-4.JPG">
                                     <i class="fa fa-search-plus"></i>
                                 </a>
                             </div>
-            
+                            
                             <div class="work__item small__item set-bg" data-setbg="img/work/work_gallery/img-5_bg.jpg">
                                 <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img-5.jpg">
                                     <i class="fa fa-search-plus"></i>
                                 </a>
                             </div>
-            
+                            
                             <!-- Wide item -->
                             <div class="work__item wide__item set-bg" data-setbg="img/work/work_gallery/img-6_bg.JPG">
                                 <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img-6.JPG">
@@ -89,9 +71,9 @@ section class="portfolio spad">
                                         <li>@fotofather</li>
                                     </ul>
                                 </div>
-            
+                            
                             </div>
-            
+                            
                             <!-- Large item -->
                             <div class="work__item large__item set-bg" data-setbg="img/work/work_gallery/img-7_bg.jpg">
                                 <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img-7.jpg">
@@ -105,20 +87,20 @@ section class="portfolio spad">
                                     </ul>
                                 </div>
                             </div>
-            
-            
+                            
+                            
                             <div class="work__item small__item set-bg" data-setbg="img/work/work_gallery/img-8_bg.jpg">
                                 <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img-8.jpg">
                                     <i class="fa fa-search-plus"></i>
                                 </a>
                             </div>
-            
+                            
                             <div class="work__item small__item set-bg" data-setbg="img/work/work_gallery/img-9_bg.jpg">
                                 <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img-9.jpg">
                                     <i class="fa fa-search-plus"></i>
                                 </a>
                             </div>
-            
+                            
                             <!-- Wide item -->
                             <div class="work__item wide__item set-bg" data-setbg="img/work/work_gallery/img-10_bg.jpg">
                                 <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img-10.jpg">
@@ -132,7 +114,7 @@ section class="portfolio spad">
                                     </ul>
                                 </div>
                             </div>
-            
+                            
                             <!-- Wide item -->
                             <div class="work__item wide__item set-bg" data-setbg="img/work/work_gallery/img-11_bg.jpg">
                                 <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img-11.jpg">
@@ -146,7 +128,7 @@ section class="portfolio spad">
                                     </ul>
                                 </div>
                             </div>
-            
+                            
                             <div class="work__item small__item set-bg" data-setbg="img/work/work_gallery/img-12_bg.jpg">
                                 <a href="#" class="open-lightbox" data-image="img/work/work_gallery/img-12.jpg">
                                     <i class="fa fa-search-plus"></i>
@@ -158,151 +140,59 @@ section class="portfolio spad">
                                 </a>
                             </div>
                         </div>
-            
                     </div>
-            
                 </div>
-            
             </div>
-            <!-- End of All Tab -->
             
+            <!-- Birthday Tab -->
+            <div class="row tab-content" id="tab-birthday">
+                <div class="full-width-wrapper">
+                    <div class="custom-container">
+                        <div class="work__gallery">
+                            <div class="grid-sizer"></div>
+                            <div class="work__item"><img src="images/birthday1.jpg" alt="Birthday 1"></div>
+                            <div class="work__item"><img src="images/birthday2.jpg" alt="Birthday 2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             
+            <!-- Outing Tab -->
+            <div class="row tab-content" id="tab-outing">
+                <div class="full-width-wrapper">
+                    <div class="custom-container">
+                        <div class="work__gallery">
+                            <div class="grid-sizer"></div>
+                            <div class="work__item"><img src="images/outing1.jpg" alt="Outing 1"></div>
+                            <div class="work__item"><img src="images/outing2.jpg" alt="Outing 2"></div>
+                            <div class="work__item"><img src="images/outing3.jpg" alt="Outing 3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             
+            <!-- Photoshoot Tab -->
+            <div class="row tab-content" id="tab-photoshoot">
+                <div class="full-width-wrapper">
+                    <div class="custom-container">
+                        <div class="work__gallery">
+                            <div class="grid-sizer"></div>
+                            <div class="work__item"><img src="images/photoshoot1.jpg" alt="Photoshoot 1"></div>
+                            <div class="work__item"><img src="images/photoshoot2.jpg" alt="Photoshoot 2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             
-            
-
-        </div>
-    </section>
-
-    <!-- Lightbox Container -->
-    <div class="custom-lightbox" id="customLightbox">
-        <span class="close-lightbox">&times;</span>
-        <img src="" alt="Preview">
-    </div>
-    
-    <script>
-        let scrollPosition = 0;
-
-        // When an image link is clicked
-        document.querySelectorAll('.open-lightbox').forEach(el => {
-            el.addEventListener('click', function (e) {
-                e.preventDefault();
-                const imgSrc = this.getAttribute('data-image');
-                document.querySelector('#customLightbox img').src = imgSrc;
-                document.getElementById('customLightbox').style.display = 'flex';
-
-                // Save current scroll position
-                scrollPosition = window.scrollY;
-
-                // Lock body in place without jumping
-                document.body.style.position = 'fixed';
-                document.body.style.top = `-${scrollPosition}px`;
-                document.body.style.left = '0';
-                document.body.style.right = '0';
-            });
-        });
-
-        function closeLightbox() {
-            document.getElementById('customLightbox').style.display = 'none';
-
-            // Re-enable scrolling
-            document.body.style.position = '';
-            document.body.style.top = '';
-            document.body.style.left = '';
-            document.body.style.right = '';
-            document.body.style.overflow = '';
-
-            // Restore previous scroll position
-            window.scrollTo(0, scrollPosition);
-        }
-
-        // Close when clicking the X
-        document.querySelector('.close-lightbox').addEventListener('click', closeLightbox);
-
-        // Close when clicking outside the image
-        document.getElementById('customLightbox').addEventListener('click', function (e) {
-            if (e.target === this) {
-                closeLightbox();
-            }
-        });
-    </script>
-
-    <style>
-        .tab-content {
-            display: none;
-        }
-    
-        .tab-content.active-tab {
-            display: flex;
-            flex-wrap: wrap;
-        }
-    </style>
-
-    <style>
-        /* Make outer wrapper span full screen */
-        .full-width-wrapper {
-            width: 100vw;
-            overflow-x: hidden;
-        }
-    
-        /* Add internal padding (side margins) */
-        .custom-container {
-           
-            width: 100%;
-            box-sizing: border-box;
-        }
-    
-      
-    
-        /* Ensure no horizontal scrollbars */
-       
-    </style>
-
-    <script>
-    $(document).ready(function () {
-        var $gallery = $('.work__gallery');
-
-        // Initialize layout (e.g. Masonry or Isotope)
-        $gallery.masonry({
-            itemSelector: '.work__item',
-            columnWidth: '.grid-sizer',
-            percentPosition: true
-        });
-
-        $('#portfolioTabs li').click(function () {
-            var tabId = $(this).data('tab');
-
-            // Update active tab button
-            $('#portfolioTabs li').removeClass('active');
-            $(this).addClass('active');
-
-            // Switch content tabs
-            $('.tab-content').removeClass('active-tab').hide();
-            $('#tab-' + tabId).addClass('active-tab').fadeIn(300);
-
-            // Trigger layout refresh
-            setTimeout(function () {
-                $('#tab-' + tabId).find('.work__gallery').masonry({
-                    itemSelector: '.work__item',
-                    columnWidth: '.grid-sizer',
-                    percentPosition: true
-                });
-            }, 300);
-        });
-    });
-</script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    background: #100028;
+            <!-- eCommerce Tab -->
+            <div class="row tab-content" id="tab-ecommerce">
+                <div class="full-width-wrapper">
+                    <div class="custom-container">
+                        <div class="work__gallery">
+                            <div class="grid-sizer"></div>
+                            <div class="work__item"><img src="images/ecommerce1.jpg" alt="eCommerce 1"></div>
+                            <div class="work__item"><img src="images/ecommerce2.jpg" alt="eCommerce 2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>

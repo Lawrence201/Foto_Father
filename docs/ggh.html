@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0e0024;
+            font-family: 'Segoe UI', sans-serif;
+            color: #ffffff;
+            padding: 40px;
+        }
+
+        ul.portfolio__filter {
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            margin-bottom: 30px;
+            gap: 40px;
+        }
+
+        ul.portfolio__filter li {
+            cursor: pointer;
+            font-size: 18px;
+            color: #ccc;
+            position: relative;
+        }
+
+        ul.portfolio__filter li.active {
+            color: white;
+        }
+
+        ul.portfolio__filter li.active::before {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background-color: #007bff;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 10px;
+        }
+
+        .gallery-item {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul class="portfolio__filter" id="portfolioTabs">
+        <li class="active" data-tab="all">All</li>
+        <li data-tab="wedding">Wedding / Engagements</li>
+        <li data-tab="birthday">Birthdays</li>
+        <li data-tab="outing">Outings</li>
+        <li data-tab="photoshoot">Photo-shoots</li>
+        <li data-tab="ecommerce">eCommerce</li>
+    </ul>
+
+    <div class="gallery" id="galleryContent">
+        <!-- Images for 'All' tab -->
+        <div class="gallery-item" data-tab="all"><img src="images/img1.jpg" alt=""></div>
+        <div class="gallery-item" data-tab="all"><img src="images/img2.jpg" alt=""></div>
+        <div class="gallery-item" data-tab="all"><img src="images/img3.jpg" alt=""></div>
+        <div class="gallery-item" data-tab="all"><img src="images/img4.jpg" alt=""></div>
+        <div class="gallery-item" data-tab="all"><img src="images/img5.jpg" alt=""></div>
+        <div class="gallery-item" data-tab="all"><img src="images/img6.jpg" alt=""></div>
+    </div>
+
+    <script>
+        const tabs = document.querySelectorAll('#portfolioTabs li');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelector('#portfolioTabs li.active').classList.remove('active');
+                tab.classList.add('active');
+
+                const selectedTab = tab.getAttribute('data-tab');
+
+                galleryItems.forEach(item => {
+                    const itemTab = item.getAttribute('data-tab');
+                    if (selectedTab === 'all' || itemTab === selectedTab) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
