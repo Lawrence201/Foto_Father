@@ -307,9 +307,23 @@ ol {
 .header__logo {
   padding: 30px 0;
 }
+
 .header__logo a {
   display: inline-block;
 }
+
+.header__logo img {
+  max-width: 140px;
+  /* set the maximum width */
+  height: auto;
+  /* keeps the aspect ratio */
+  display: block;
+  /* removes inline spacing issues */
+  margin-top: -5px;
+  /* move image upwards slightly */
+
+}
+
 
 .header__nav__option {
   text-align: right;
